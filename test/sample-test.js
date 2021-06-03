@@ -9,12 +9,12 @@ describe("BeeeefRegistry", function() {
     const entries = await contract.getEntries();
     console.log("printEntries entries: " + JSON.stringify(entries));
 
-    // const length = await contract.entriesLength();
-    // console.log("printEntries length: " + length);
-    // for (let i = 0; i < length; i++) {
-    //   const entry = await contract.getEntryByIndex(i);
-    //   console.log("printEntries " + i + ": " + JSON.stringify(entry));
-    // }
+    const length = await contract.entriesLength();
+    console.log("printEntries length: " + length);
+    for (let i = 0; i < length; i++) {
+      const entry = await contract.getEntryByIndex(i);
+      console.log("printEntries " + i + ": " + JSON.stringify(entry));
+    }
   }
 
   it("Should return the new greeting once it's changed", async function() {

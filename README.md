@@ -1,4 +1,4 @@
 # BeeeefRegistry
 Beeeef Registry
 
-See [deployed/BeeeefRegistry_deployed_to_0xbEEeEfffE871CE4b6aEAc8717194913f2bc27577.sol](deployed/BeeeefRegistry_deployed_to_0xbEEeEfffE871CE4b6aEAc8717194913f2bc27577.sol).
+See [deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126341b81.sol](deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126341b81.sol).

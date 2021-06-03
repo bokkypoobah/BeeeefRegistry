@@ -1,3 +1,7 @@
+/**
+ *Submitted for verification at Etherscan.io on 2021-06-03
+*/
+
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -5,6 +9,8 @@ pragma solidity ^0.8.0;
 // Beeeef Registry
 //
 // https://github.com/bokkypoobah/BeeeefRegistry
+//
+// Deployed to 0xBeEEeFEE77863fe2333da3b4679e4CC126341b81
 //
 //
 // Enjoy.
