@@ -33,13 +33,13 @@ describe("BeeeefRegistry", function() {
     const addEntryTx0 = await registry.connect(user0Signer).addEntry(TESTACCOUNT1, 1);
     await printEntries(registry);
 
-    const addEntryTx1 = await registry.connect(user0Signer).addEntry(TESTACCOUNT2, 1);
+    const addEntryTx1 = await registry.connect(user0Signer).addEntry(TESTACCOUNT2, 6);
     await printEntries(registry);
 
-    const updateEntryTx0 = await registry.connect(user0Signer).updateEntry(TESTACCOUNT2, 2);
+    const updateEntryTx0 = await registry.connect(user0Signer).updateEntry(TESTACCOUNT2, 7);
     await printEntries(registry);
 
-    const curateEntryTx0 = await registry.connect(ownerSigner).curateEntry(user0Signer.address, TESTACCOUNT2, 33);
+    const curateEntryTx0 = await registry.connect(ownerSigner).curateEntry(user0Signer.address, TESTACCOUNT2, 7);
     await printEntries(registry);
 
     const removeEntryTx0 = await registry.connect(user0Signer).removeEntry(TESTACCOUNT1);

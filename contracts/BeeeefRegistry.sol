@@ -1,15 +1,23 @@
-//SPDX-License-Identifier: Unlicense
+//SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "hardhat/console.sol";
+// ----------------------------------------------------------------------------
+// Beeeef Registry for owners to register their accounts for the public display
+// or use of the accounts NFTs
+//
+// https://github.com/bokkypoobah/BeeeefRegistry
+//
+//
+// Enjoy.
+//
+// (c) BokkyPooBah / Bok Consulting Pty Ltd 2021. The MIT Licence.
+// ----------------------------------------------------------------------------
 
-// ----------------------------------------------------------------------------
-// Curated contract
-// ----------------------------------------------------------------------------
+
 contract Curated {
     address public curator;
 
-    event CuratorTransferred(address indexed _from, address indexed _to);
+    event CuratorTransferred(address indexed from, address indexed to);
 
     modifier onlyCurator {
         require(msg.sender == curator);
@@ -19,24 +27,25 @@ contract Curated {
     constructor() {
         curator = msg.sender;
     }
-    function transferCurator(address _newCurator) public onlyCurator {
-        emit CuratorTransferred(curator, _newCurator);
-        curator = _newCurator;
+    function transferCurator(address _curator) public onlyCurator {
+        emit CuratorTransferred(curator, _curator);
+        curator = _curator;
     }
 }
 
 
-// ----------------------------------------------------------------------------
-// Entries Data Structure
-// ----------------------------------------------------------------------------
+enum Permission { None, View, ComposeWith, Option3, Option4, Option5, Option6, Option7 }
+enum Curation { None, LoadByDefault, DisableView, DisableComposeWith, Option4, Option5, Option6, Option7 }
+
+
 library Entries {
     struct Entry {
         uint index;
         uint64 timestamp;
         address account;
         address token;
-        uint32 permission;
-        uint32 curatorOption;
+        Permission permission;
+        Curation curation;
     }
     struct Data {
         bool initialised;
@@ -44,10 +53,10 @@ library Entries {
         bytes32[] index;
     }
 
-    event EntryAdded(bytes32 key, address account, address token, uint permission, uint totalAfter);
-    event EntryRemoved(bytes32 key, address account, address token, uint totalAfter);
-    event EntryUpdated(bytes32 key, address account, address token, uint permission);
-    event EntryCurated(bytes32 key, address account, address token, uint curatorOption);
+    event EntryAdded(bytes32 key, address account, address token, Permission permission);
+    event EntryRemoved(bytes32 key, address account, address token);
+    event EntryUpdated(bytes32 key, address account, address token, Permission permission);
+    event EntryCurated(bytes32 key, address account, address token, Curation curation);
 
     function init(Data storage self) internal {
         require(!self.initialised);
@@ -59,21 +68,18 @@ library Entries {
     function hasKey(Data storage self, bytes32 key) internal view returns (bool) {
         return self.entries[key].timestamp > 0;
     }
-    function add(Data storage self, address account, address token, uint32 permission) internal {
+    function add(Data storage self, address account, address token, Permission permission) internal {
         bytes32 key = generateKey(account, token);
-        // console.log("Entries.add account: %s, token: %s, permission: %s", account, token, permission);
         require(self.entries[key].timestamp == 0);
         self.index.push(key);
-        self.entries[key] = Entry(self.index.length - 1, uint64(block.timestamp), account, token, permission, 0);
-        emit EntryAdded(key, account, token, permission, self.index.length);
+        self.entries[key] = Entry(self.index.length - 1, uint64(block.timestamp), account, token, permission, Curation(0));
+        emit EntryAdded(key, account, token, permission);
     }
     function remove(Data storage self, address account, address token) internal {
         bytes32 key = generateKey(account, token);
         require(self.entries[key].timestamp > 0);
-        // Not required? Hash should mismatch
-        // require(self.entries[key].account == msg.sender);
         uint removeIndex = self.entries[key].index;
-        emit EntryRemoved(key, account, token, self.index.length - 1);
+        emit EntryRemoved(key, account, token);
         uint lastIndex = self.index.length - 1;
         bytes32 lastIndexKey = self.index[lastIndex];
         self.index[removeIndex] = lastIndexKey;
@@ -83,7 +89,7 @@ library Entries {
             self.index.pop();
         }
     }
-    function update(Data storage self, address account, address token, uint32 permission) internal {
+    function update(Data storage self, address account, address token, Permission permission) internal {
         bytes32 key = generateKey(account, token);
         Entry storage entry = self.entries[key];
         require(entry.timestamp > 0);
@@ -91,12 +97,12 @@ library Entries {
         entry.permission = permission;
         emit EntryUpdated(key, account, token, permission);
     }
-    function curate(Data storage self, address account, address token, uint32 curatorOption) internal {
+    function curate(Data storage self, address account, address token, Curation curation) internal {
         bytes32 key = generateKey(account, token);
         Entry storage entry = self.entries[key];
         require(entry.timestamp > 0);
-        entry.curatorOption = curatorOption;
-        emit EntryCurated(key, account, token, curatorOption);
+        entry.curation = curation;
+        emit EntryCurated(key, account, token, curation);
     }
     function length(Data storage self) internal view returns (uint) {
         return self.index.length;
@@ -105,63 +111,53 @@ library Entries {
 
 
 contract BeeeefRegistry is Curated {
-
     using Entries for Entries.Data;
     using Entries for Entries.Entry;
 
     Entries.Data private entries;
 
-    event EntryAdded(bytes32 key, address account, address token, uint permission, uint totalAfter);
-    event EntryRemoved(bytes32 key, address account, address token, uint totalAfter);
+    event EntryAdded(bytes32 key, address account, address token, uint permission);
+    event EntryRemoved(bytes32 key, address account, address token);
     event EntryUpdated(bytes32 key, address account, address token, uint permission);
-    event EntryCurated(bytes32 key, address account, address token, uint curatorOption);
+    event EntryCurated(bytes32 key, address account, address token, Curation curation);
 
     constructor() {
         entries.init();
     }
 
-    function addEntry(address token, uint32 permission) public {
-        // console.log("addEntry token: %s, permission: %s", token, permission);
-        require(token != address(0), "Token cannot be null");
+    function addEntry(address token, Permission permission) public {
         entries.add(msg.sender, token, permission);
     }
-
     function removeEntry(address token) public {
-        require(token != address(0), "Token cannot be null");
         entries.remove(msg.sender, token);
     }
-    function updateEntry(address token, uint32 permission) public {
-        // console.log("addEntry token: %s, permission: %s", token, permission);
-        require(token != address(0), "Token cannot be null");
+    function updateEntry(address token, Permission permission) public {
         entries.update(msg.sender, token, permission);
     }
-
-    function curateEntry(address account, address token, uint32 curatorOption) public onlyCurator {
-        entries.curate(account, token, curatorOption);
-    }
-
-    function getEntryByIndex(uint i) public view returns (address _account, address _token, uint _permission) {
-        require(i < entries.length(), "getEntryByIndex: Invalid index");
-        Entries.Entry memory entry = entries.entries[entries.index[i]];
-        return (entry.account, entry.token, entry.permission);
+    function curateEntry(address account, address token, Curation curation) public onlyCurator {
+        entries.curate(account, token, curation);
     }
 
     function entriesLength() public view returns (uint) {
         return entries.length();
     }
-
-    function getEntries() public view returns (address[] memory accounts, address[] memory tokens, uint32[] memory permissions, uint32[] memory curatorOptions) {
+    function getEntryByIndex(uint i) public view returns (address _account, address _token, Permission _permission) {
+        require(i < entries.length(), "getEntryByIndex: Invalid index");
+        Entries.Entry memory entry = entries.entries[entries.index[i]];
+        return (entry.account, entry.token, entry.permission);
+    }
+    function getEntries() public view returns (address[] memory accounts, address[] memory tokens, Permission[] memory permissions, Curation[] memory curations) {
         uint length = entries.length();
         accounts = new address[](length);
         tokens = new address[](length);
-        permissions = new uint32[](length);
-        curatorOptions = new uint32[](length);
+        permissions = new Permission[](length);
+        curations = new Curation[](length);
         for (uint i = 0; i < length; i++) {
             Entries.Entry memory entry = entries.entries[entries.index[i]];
             accounts[i] = entry.account;
             tokens[i] = entry.token;
             permissions[i] = entry.permission;
-            curatorOptions[i] = entry.curatorOption;
+            curations[i] = entry.curation;
         }
     }
 }
