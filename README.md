@@ -53,7 +53,6 @@ See [deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126
 * Contract: Acclimated - [0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69](https://etherscan.io/address/0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69); Original [0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6](https://etherscan.io/address/0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6)
 * OpenSea: [https://opensea.io/collection/acclimatedmooncats](https://opensea.io/collection/acclimatedmooncats)
 
-
 <br />
 
 ## Hashmasks - 'ComposeWith'
@@ -62,3 +61,22 @@ See [deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126
 * Image licence: [https://www.thehashmasks.com/terms](https://www.thehashmasks.com/terms)
 * Contract: [0xC2C747E0F7004F9E8817Db2ca4997657a7746928](https://etherscan.io/address/0xC2C747E0F7004F9E8817Db2ca4997657a7746928)
 * OpenSea: [https://opensea.io/collection/hashmasks](https://opensea.io/collection/hashmasks)
+
+
+<br />
+
+## PunkBodies - 'ComposeWith'
+
+* Site: [https://www.punkbodies.com/](https://www.punkbodies.com/)
+* Image licence: Commercial use < $100,000 - [https://docs.google.com/document/d/e/2PACX-1vTArGo--JUzHYfqw9rDBxCWmrGX4aQKtpnGHCCy2-mu94QC4lKqsflmmP6JtCD_HU40s_rCjJj6LxR4/pub](https://docs.google.com/document/d/e/2PACX-1vTArGo--JUzHYfqw9rDBxCWmrGX4aQKtpnGHCCy2-mu94QC4lKqsflmmP6JtCD_HU40s_rCjJj6LxR4/pub)
+* Contract: [0x837779Ed98209C38b9bF77804a4f0105B9eb2E02](https://etherscan.io/address/0x837779Ed98209C38b9bF77804a4f0105B9eb2E02)
+* OpenSea: [https://opensea.io/collection/punkbodies](https://opensea.io/collection/punkbodies)
+
+<br />
+
+## Meebits - 'View'
+
+* Site: [https://meebits.larvalabs.com/](https://meebits.larvalabs.com/)
+* Image licence: Commercial use < $100,000 - [https://meebits.larvalabs.com/meebits/termsandconditions](https://meebits.larvalabs.com/meebits/termsandconditions)
+* Contract: [0x7Bd29408f11D2bFC23c34f18275bBf23bB716Bc7](https://etherscan.io/address/0x7Bd29408f11D2bFC23c34f18275bBf23bB716Bc7)
+* OpenSea: [https://opensea.io/collection/meebits](https://opensea.io/collection/meebits)
