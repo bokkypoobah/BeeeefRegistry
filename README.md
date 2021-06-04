@@ -80,3 +80,12 @@ See [deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126
 * Image licence: Commercial use < $100,000 - [https://meebits.larvalabs.com/meebits/termsandconditions](https://meebits.larvalabs.com/meebits/termsandconditions)
 * Contract: [0x7Bd29408f11D2bFC23c34f18275bBf23bB716Bc7](https://etherscan.io/address/0x7Bd29408f11D2bFC23c34f18275bBf23bB716Bc7)
 * OpenSea: [https://opensea.io/collection/meebits](https://opensea.io/collection/meebits)
+
+<br />
+
+## CryptoCats - 'View'
+
+* Site: [https://cryptocats.thetwentysix.io/](https://cryptocats.thetwentysix.io/)
+* Image licence: ? Checking with creators
+* Contract: Official Wrapped - [0xd0e7bc3f1efc5f098534bce73589835b8273b9a0](https://etherscan.io/address/0xd0e7bc3f1efc5f098534bce73589835b8273b9a0); Original - [0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f](https://etherscan.io/address/0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f)
+* OpenSea: [https://opensea.io/collection/wrappedcryptocats](https://opensea.io/collection/wrappedcryptocats)
