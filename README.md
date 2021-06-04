@@ -89,3 +89,12 @@ See [deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126
 * Image licence: ? Checking with creators
 * Contract: Official Wrapped - [0xd0e7bc3f1efc5f098534bce73589835b8273b9a0](https://etherscan.io/address/0xd0e7bc3f1efc5f098534bce73589835b8273b9a0); Original - [0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f](https://etherscan.io/address/0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f)
 * OpenSea: [https://opensea.io/collection/wrappedcryptocats](https://opensea.io/collection/wrappedcryptocats)
+
+<br />
+
+## Mandalas - 'ComposeWith'
+
+* Site: [https://mandalas.eth.link/](https://mandalas.eth.link/)
+* Image licence: Algorithmically generated
+* Contract: [0xDaCa87395f3b1Bbc46F3FA187e996E03a5dCc985](https://etherscan.io/address/0xDaCa87395f3b1Bbc46F3FA187e996E03a5dCc985)
+* OpenSea: [https://opensea.io/collection/mandala-tokens](https://opensea.io/collection/mandala-tokens)
