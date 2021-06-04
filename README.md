@@ -37,7 +37,7 @@ See [deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126
 
 <br />
 
-## CryptoTrunks - 'ComposeWith'
+## CryptoTrunks - ? 'ComposeWith'
 
 * Site: [https://cryptotrunks.co/](https://cryptotrunks.co/)
 * Image licence: Not found
