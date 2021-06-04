@@ -37,21 +37,21 @@ See [deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126
 
 <br />
 
+## CryptoCats - 'ComposeWith' for 477 Only
+
+* Site: [https://cryptocats.thetwentysix.io/](https://cryptocats.thetwentysix.io/)
+* Image licence: "Approval from CryptoCats to use 477 on NFT postcards" - gendry.eth Jun 4 2021
+* Contract: Official Wrapped - [0xd0e7bc3f1efc5f098534bce73589835b8273b9a0](https://etherscan.io/address/0xd0e7bc3f1efc5f098534bce73589835b8273b9a0); Original - [0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f](https://etherscan.io/address/0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f)
+* OpenSea: [https://opensea.io/collection/wrappedcryptocats](https://opensea.io/collection/wrappedcryptocats)
+
+<br />
+
 ## CryptoTrunks - ? 'ComposeWith'
 
 * Site: [https://cryptotrunks.co/](https://cryptotrunks.co/)
 * Image licence: Not found
 * Contract: [0x375ea781c49EaFEdDE07AFe6196f885761f166Ae](https://etherscan.io/address/0x375ea781c49EaFEdDE07AFe6196f885761f166Ae)
 * OpenSea: [https://opensea.io/collection/cryptotrunks](https://opensea.io/collection/cryptotrunks)
-
-<br />
-
-## MoonCats - 'ComposeWith'
-
-* Site: [https://mooncat.community/](https://mooncat.community/)
-* Image licence: Algorithmically generated - [https://github.com/ponderware/mooncatparser](https://github.com/ponderware/mooncatparser)
-* Contract: Acclimated - [0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69](https://etherscan.io/address/0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69); Original [0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6](https://etherscan.io/address/0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6)
-* OpenSea: [https://opensea.io/collection/acclimatedmooncats](https://opensea.io/collection/acclimatedmooncats)
 
 <br />
 
@@ -65,12 +65,12 @@ See [deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126
 
 <br />
 
-## PunkBodies - 'ComposeWith'
+## Mandalas - 'ComposeWith'
 
-* Site: [https://www.punkbodies.com/](https://www.punkbodies.com/)
-* Image licence: Commercial use < $100,000 - [https://docs.google.com/document/d/e/2PACX-1vTArGo--JUzHYfqw9rDBxCWmrGX4aQKtpnGHCCy2-mu94QC4lKqsflmmP6JtCD_HU40s_rCjJj6LxR4/pub](https://docs.google.com/document/d/e/2PACX-1vTArGo--JUzHYfqw9rDBxCWmrGX4aQKtpnGHCCy2-mu94QC4lKqsflmmP6JtCD_HU40s_rCjJj6LxR4/pub)
-* Contract: [0x837779Ed98209C38b9bF77804a4f0105B9eb2E02](https://etherscan.io/address/0x837779Ed98209C38b9bF77804a4f0105B9eb2E02)
-* OpenSea: [https://opensea.io/collection/punkbodies](https://opensea.io/collection/punkbodies)
+* Site: [https://mandalas.eth.link/](https://mandalas.eth.link/)
+* Image licence: Algorithmically generated
+* Contract: [0xDaCa87395f3b1Bbc46F3FA187e996E03a5dCc985](https://etherscan.io/address/0xDaCa87395f3b1Bbc46F3FA187e996E03a5dCc985)
+* OpenSea: [https://opensea.io/collection/mandala-tokens](https://opensea.io/collection/mandala-tokens)
 
 <br />
 
@@ -83,18 +83,27 @@ See [deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126
 
 <br />
 
-## CryptoCats - 'View'
+## MoonCats - 'ComposeWith'
 
-* Site: [https://cryptocats.thetwentysix.io/](https://cryptocats.thetwentysix.io/)
-* Image licence: ? Checking with creators
-* Contract: Official Wrapped - [0xd0e7bc3f1efc5f098534bce73589835b8273b9a0](https://etherscan.io/address/0xd0e7bc3f1efc5f098534bce73589835b8273b9a0); Original - [0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f](https://etherscan.io/address/0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f)
-* OpenSea: [https://opensea.io/collection/wrappedcryptocats](https://opensea.io/collection/wrappedcryptocats)
+* Site: [https://mooncat.community/](https://mooncat.community/)
+* Image licence: Algorithmically generated - [https://github.com/ponderware/mooncatparser](https://github.com/ponderware/mooncatparser)
+* Contract: Acclimated - [0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69](https://etherscan.io/address/0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69); Original [0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6](https://etherscan.io/address/0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6)
+* OpenSea: [https://opensea.io/collection/acclimatedmooncats](https://opensea.io/collection/acclimatedmooncats)
 
 <br />
 
-## Mandalas - 'ComposeWith'
+## The Pixel Portraits - ?'ComposeWith'
 
-* Site: [https://mandalas.eth.link/](https://mandalas.eth.link/)
-* Image licence: Algorithmically generated
-* Contract: [0xDaCa87395f3b1Bbc46F3FA187e996E03a5dCc985](https://etherscan.io/address/0xDaCa87395f3b1Bbc46F3FA187e996E03a5dCc985)
-* OpenSea: [https://opensea.io/collection/mandala-tokens](https://opensea.io/collection/mandala-tokens)
+* Site: [https://www.thepixelportraits.me/](https://www.thepixelportraits.me/)
+* Image licence: Check with creators - [https://www.thepixelportraits.me/terms](https://www.thepixelportraits.me/terms)
+* Contract: OpenSea Shared Storefront [0x495f947276749Ce646f68AC8c248420045cb7b5e](https://etherscan.io/address/0x495f947276749Ce646f68AC8c248420045cb7b5e)
+* OpenSea: [https://opensea.io/collection/the-pixel-portraits](https://opensea.io/collection/the-pixel-portraits)
+
+<br />
+
+## PunkBodies - 'ComposeWith'
+
+* Site: [https://www.punkbodies.com/](https://www.punkbodies.com/)
+* Image licence: Commercial use < $100,000 - [https://docs.google.com/document/d/e/2PACX-1vTArGo--JUzHYfqw9rDBxCWmrGX4aQKtpnGHCCy2-mu94QC4lKqsflmmP6JtCD_HU40s_rCjJj6LxR4/pub](https://docs.google.com/document/d/e/2PACX-1vTArGo--JUzHYfqw9rDBxCWmrGX4aQKtpnGHCCy2-mu94QC4lKqsflmmP6JtCD_HU40s_rCjJj6LxR4/pub)
+* Contract: [0x837779Ed98209C38b9bF77804a4f0105B9eb2E02](https://etherscan.io/address/0x837779Ed98209C38b9bF77804a4f0105B9eb2E02)
+* OpenSea: [https://opensea.io/collection/punkbodies](https://opensea.io/collection/punkbodies)
