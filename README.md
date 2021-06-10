@@ -4,6 +4,8 @@ The Beeeef Registry is a smart contract deployed to the Ethereum blockchain to [
 
 This registry allows accounts to cryptographically sign for owners to either allow **View** or **ComposeWith** permissions only for personal use by members of the public.
 
+<br />
+
 ## Registry Functions
 
 Registry functions have the parameters with values currently used in the user interface [https://nftpostcard.app/](https://nftpostcard.app/):
@@ -52,6 +54,20 @@ function curateEntry(address account, address token, Curation curation) public o
 ```
 
 The curator of this registry (deployer of the registry, currently) is able to apply the following setting to any `[account, token]` pair (including token `address(0)`) - 0 = None; 1 = LoadByDefault; 3 = DisableView; 4 = DisableComposeWith . This setting is used by the front end user interface to determine which entries are automatically loaded, manually loadable, or disabled from display.
+
+<br />
+
+### Sample Entries
+
+```
+account  | token | permission | curation
+:------- |:----- |:---------- |:--------
+0xOwner1 | address(0) ] View | None
+0xOwner1 | 0xTokenA ] ComposeWith | None
+0xOwner2 | address(0) ] ComposeWith | None
+0xOwner2 | 0xTokenA ] View | None
+
+```
 
 <br />
 
