@@ -59,15 +59,12 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 
 ### Sample Entries
 
-```
 account  | token | permission | curation
 :------- |:----- |:---------- |:--------
 0xOwner1 | address(0) ] View | None
 0xOwner1 | 0xTokenA ] ComposeWith | None
 0xOwner2 | address(0) ] ComposeWith | None
 0xOwner2 | 0xTokenA ] View | None
-
-```
 
 <br />
 
