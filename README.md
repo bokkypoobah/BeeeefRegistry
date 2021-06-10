@@ -3,6 +3,8 @@ Beeeef Registry
 
 See [deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126341b81.sol](deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126341b81.sol).
 
+ENS and reverse ENS has been set between [beeeefregistry.nftpostcard.eth](https://app.ens.domains/name/beeeefregistry.nftpostcard.eth) and [0xBeEEeFEE77863fe2333da3b4679e4CC126341b81](https://etherscan.io/address/0xBeEEeFEE77863fe2333da3b4679e4CC126341b81).
+
 <br />
 
 <hr />
