@@ -6,6 +6,23 @@ This registry allows accounts to cryptographically sign for the account's NFTs m
 
 <br />
 
+### Sample Entries
+
+account  | token | permission | curation
+:------- |:----- |:---------- |:--------
+0xOwner1 | address(0) ] View | LoadByDefault
+0xOwner1 | 0xTokenA ] ComposeWith | LoadByDefault
+0xOwner2 | address(0) ] ComposeWith | None
+0xOwner2 | 0xTokenA ] View | None
+0xOwner3 | address(0) ] ComposeWith | None
+0xOwner3 | 0xTokenB ] View | None
+
+The first three columns can only by updated by the owner accounts and the last column by the curator.
+
+<br />
+
+<hr />
+
 ## Registry Functions
 
 Registry functions have the parameters with values currently used in the user interface [https://nftpostcard.app/](https://nftpostcard.app/):
@@ -47,6 +64,8 @@ function updateEntry(address token, Permission permission) public;
 
 Executing `updateEntry(...)` from an NFT owner account updates an existing entry in this registry. `token` can bet set to `address(0)` to permission all token contracts. `permission` should be set to 0 = None; 1 = View; or 2 = ComposeWith.
 
+<br />
+
 ### Curate Entry
 
 ```javascript
@@ -57,26 +76,11 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 
 <br />
 
-### Sample Entries
-
-account  | token | permission | curation
-:------- |:----- |:---------- |:--------
-0xOwner1 | address(0) ] View | LoadByDefault
-0xOwner1 | 0xTokenA ] ComposeWith | LoadByDefault
-0xOwner2 | address(0) ] ComposeWith | None
-0xOwner2 | 0xTokenA ] View | None
-0xOwner3 | address(0) ] ComposeWith | None
-0xOwner3 | 0xTokenB ] View | None
-
-The first three columns can only by updated by the owner accounts and the last column by the curator.
-
-<br />
-
 <hr />
 
-# Some Token Contract Information
+## Token Contract Reference
 
-## BASTARD GAN PUNKS V2 - 'ComposeWith'
+### BASTARD GAN PUNKS V2 - 'ComposeWith'
 
 * Site: [https://www.bastardganpunks.club/](https://www.bastardganpunks.club/)
 * Image licence: [https://www.bastardganpunks.club/#nftownership](https://www.bastardganpunks.club/#nftownership)
@@ -85,7 +89,7 @@ The first three columns can only by updated by the owner accounts and the last c
 
 <br />
 
-## Bonsai by ZENFT - 'ComposeWith'
+### Bonsai by ZENFT - 'ComposeWith'
 
 * Site: [https://zenft.xyz/](https://zenft.xyz/)
 * Image licence: [https://zenft.xyz/#welcome](https://zenft.xyz/#welcome)
@@ -95,7 +99,7 @@ The first three columns can only by updated by the owner accounts and the last c
 
 <br />
 
-## Bored Ape Yacht Club - 'ComposeWith'
+### Bored Ape Yacht Club - 'ComposeWith'
 
 * Site: [https://boredapeyachtclub.com/](https://boredapeyachtclub.com/)
 * Image licence: [https://boredapeyachtclub.com/#/terms](https://boredapeyachtclub.com/#/terms)
@@ -104,7 +108,7 @@ The first three columns can only by updated by the owner accounts and the last c
 
 <br />
 
-## CryptoCats - 'ComposeWith' for 477 Only
+### CryptoCats - 'ComposeWith' for 477 Only
 
 * Site: [https://cryptocats.thetwentysix.io/](https://cryptocats.thetwentysix.io/)
 * Image licence: "Approval from CryptoCats to use 477 on NFT postcards" - gendry.eth Jun 4 2021
@@ -113,7 +117,7 @@ The first three columns can only by updated by the owner accounts and the last c
 
 <br />
 
-## CryptoPunks - ? 'ComposeWith'
+### CryptoPunks - ? 'ComposeWith'
 
 * Site: [https://www.larvalabs.com/cryptopunks](https://www.larvalabs.com/cryptopunks)
 * Image licence: Not found
@@ -122,7 +126,7 @@ The first three columns can only by updated by the owner accounts and the last c
 
 <br />
 
-## CryptoTrunks - ? 'ComposeWith'
+### CryptoTrunks - ? 'ComposeWith'
 
 * Site: [https://cryptotrunks.co/](https://cryptotrunks.co/)
 * Image licence: Not found
@@ -131,7 +135,7 @@ The first three columns can only by updated by the owner accounts and the last c
 
 <br />
 
-## Hashmasks - 'ComposeWith'
+### Hashmasks - 'ComposeWith'
 
 * Site: [https://www.thehashmasks.com/](https://www.thehashmasks.com/)
 * Image licence: [https://www.thehashmasks.com/terms](https://www.thehashmasks.com/terms)
@@ -141,7 +145,7 @@ The first three columns can only by updated by the owner accounts and the last c
 
 <br />
 
-## Mandalas - 'ComposeWith'
+### Mandalas - 'ComposeWith'
 
 * Site: [https://mandalas.eth.link/](https://mandalas.eth.link/)
 * Image licence: Algorithmically generated
@@ -150,7 +154,7 @@ The first three columns can only by updated by the owner accounts and the last c
 
 <br />
 
-## Meebits - 'View'
+### Meebits - 'View'
 
 * Site: [https://meebits.larvalabs.com/](https://meebits.larvalabs.com/)
 * Image licence: Commercial use < $100,000 - [https://meebits.larvalabs.com/meebits/termsandconditions](https://meebits.larvalabs.com/meebits/termsandconditions)
@@ -159,7 +163,7 @@ The first three columns can only by updated by the owner accounts and the last c
 
 <br />
 
-## MoonCats - 'ComposeWith'
+### MoonCats - 'ComposeWith'
 
 * Site: [https://mooncat.community/](https://mooncat.community/)
 * Image licence: Algorithmically generated - [https://github.com/ponderware/mooncatparser](https://github.com/ponderware/mooncatparser)
@@ -168,7 +172,7 @@ The first three columns can only by updated by the owner accounts and the last c
 
 <br />
 
-## The Pixel Portraits - ?'ComposeWith'
+### The Pixel Portraits - ?'ComposeWith'
 
 * Site: [https://www.thepixelportraits.me/](https://www.thepixelportraits.me/)
 * Image licence: Check with creators - [https://www.thepixelportraits.me/terms](https://www.thepixelportraits.me/terms)
@@ -177,9 +181,17 @@ The first three columns can only by updated by the owner accounts and the last c
 
 <br />
 
-## PunkBodies - 'ComposeWith'
+### PunkBodies - 'ComposeWith'
 
 * Site: [https://www.punkbodies.com/](https://www.punkbodies.com/)
 * Image licence: Commercial use < $100,000 - [https://docs.google.com/document/d/e/2PACX-1vTArGo--JUzHYfqw9rDBxCWmrGX4aQKtpnGHCCy2-mu94QC4lKqsflmmP6JtCD_HU40s_rCjJj6LxR4/pub](https://docs.google.com/document/d/e/2PACX-1vTArGo--JUzHYfqw9rDBxCWmrGX4aQKtpnGHCCy2-mu94QC4lKqsflmmP6JtCD_HU40s_rCjJj6LxR4/pub)
 * Contract: [0x837779Ed98209C38b9bF77804a4f0105B9eb2E02](https://etherscan.io/address/0x837779Ed98209C38b9bF77804a4f0105B9eb2E02) @ [Mar-27-2021 02:42:45 PM +UTC](https://etherscan.io/tx/0xbcb3e08d818d6e9411d879d4ad854fd0f4f2de260e53f69fa7e71f0f0c7fe583)
 * OpenSea: [https://opensea.io/collection/punkbodies](https://opensea.io/collection/punkbodies)
+
+<br />
+
+<br />
+
+Enjoy!
+
+(c) BokkyPooBah / Bok Consulting Pty Ltd - Jun 10 2021. The MIT Licence.
