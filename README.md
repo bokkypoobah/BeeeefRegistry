@@ -1,8 +1,8 @@
 # BeeeefRegistry
 
-The Beeeef Registry is a smart contract deployed to the Ethereum blockchain to [0xBeEEeFEE77863fe2333da3b4679e4CC126341b81](https://etherscan.io/address/0xBeEEeFEE77863fe2333da3b4679e4CC126341b81#code).
+The Beeeef Registry is a [smart contract](deployed/BeeeefRegistry_deployed_v1_to_0xBeEEeFEE77863fe2333da3b4679e4CC126341b81.sol) deployed to the Ethereum blockchain to [0xBeEEeFEE77863fe2333da3b4679e4CC126341b81](https://etherscan.io/address/0xBeEEeFEE77863fe2333da3b4679e4CC126341b81#code), or [beeeefregistry.nftpostcard.eth](https://app.ens.domains/name/beeeefregistry.nftpostcard.eth).
 
-This registry allows accounts to cryptographically sign for owners to either allow **View** or **ComposeWith** permissions only for personal use by members of the public.
+This registry allows accounts to cryptographically sign for the account's NFTs media (JPGs, PNGs, ...) to be available for personal use by members of the public. The permissions can either be **View** for the media to be displayed/played or **ComposeWith** for the media to be re-mixed in digital media for personal use.
 
 <br />
 
@@ -61,10 +61,14 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 
 account  | token | permission | curation
 :------- |:----- |:---------- |:--------
-0xOwner1 | address(0) ] View | None
-0xOwner1 | 0xTokenA ] ComposeWith | None
+0xOwner1 | address(0) ] View | LoadByDefault
+0xOwner1 | 0xTokenA ] ComposeWith | LoadByDefault
 0xOwner2 | address(0) ] ComposeWith | None
 0xOwner2 | 0xTokenA ] View | None
+0xOwner3 | address(0) ] ComposeWith | None
+0xOwner3 | 0xTokenB ] View | None
+
+The first three columns can only by updated by the owner accounts and the last column by the curator.
 
 <br />
 
@@ -78,7 +82,7 @@ ENS and reverse ENS has been set between [beeeefregistry.nftpostcard.eth](https:
 
 <hr />
 
-# Token Contracts
+# Some Token Contract Information
 
 ## BASTARD GAN PUNKS V2 - 'ComposeWith'
 
