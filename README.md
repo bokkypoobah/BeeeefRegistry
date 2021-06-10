@@ -10,12 +10,12 @@ This registry allows accounts to cryptographically sign for the account's NFTs m
 
 account  | token | permission | curation
 :------- |:----- |:---------- |:--------
-0xOwner1 | address(0) ] View | LoadByDefault
-0xOwner1 | 0xTokenA ] ComposeWith | LoadByDefault
-0xOwner2 | address(0) ] ComposeWith | None
-0xOwner2 | 0xTokenA ] View | None
-0xOwner3 | address(0) ] ComposeWith | None
-0xOwner3 | 0xTokenB ] View | None
+0xOwner1 | address(0) | View | LoadByDefault
+0xOwner1 | 0xTokenA | ComposeWith | LoadByDefault
+0xOwner2 | address(0) | ComposeWith | None
+0xOwner2 | 0xTokenA | View | None
+0xOwner3 | address(0) | ComposeWith | None
+0xOwner3 | 0xTokenB | View | None
 
 The first three columns can only by updated by the owner accounts and the last column by the curator.
 
