@@ -18,7 +18,7 @@ account  | token | permission | curation
 0xOwner3 | address(0) | ComposeWith | None
 0xOwner3 | 0xTokenB | View | None
 
-* This registry uses the `[owner, token]` combination as a unique key.
+* This registry uses the `[account, token]` combination as a unique key.
 * The first three columns can only by updated by the owner accounts and the last column by the curator.
 
 <br />
@@ -31,8 +31,8 @@ Registry functions have the parameters with values currently used in the user in
 
 * `address account`: NFT owner account
 * `address token`: ERC-721 or ERC-1155 token contract address, or `address(0)` of all token contracts
-* Permission: 0 = None; 1 = View; 2 = ComposeWith
-* Curation: 0 = None; 1 = LoadByDefault; 3 = DisableView; 4 = DisableComposeWith
+* Permission: `0` = None; `1` = View; `2` = ComposeWith
+* Curation: `0` = None; `1` = LoadByDefault; `3` = DisableView; `4` = DisableComposeWith
 
 If there are more than two matching entries for an owner's `[account, token]`, the most specific match takes precedent. i.e., the permission for `[account, token]` is applied if it exist. If no match if found, the permission for `[account, address(0)]` is applied.
 
@@ -44,7 +44,7 @@ If there are more than two matching entries for an owner's `[account, token]`, t
 function addEntry(address token, Permission permission) public;
 ```
 
-Executing `addEntry(...)` from an NFT owner account adds an entry into this registry. `token` can bet set to `address(0)` to permission all token contracts. `permission` should be set to 0 = None; 1 = View; or 2 = ComposeWith.
+Executing `addEntry(...)` from an NFT owner account adds an entry into this registry. `token` can bet set to `address(0)` to permission all token contracts. `permission` should be set to `0` = None; `1` = View; or `2` = ComposeWith.
 
 <br />
 
@@ -64,7 +64,7 @@ Executing `removeEntry(...)` from an NFT owner account removes an existing entry
 function updateEntry(address token, Permission permission) public;
 ```
 
-Executing `updateEntry(...)` from an NFT owner account updates an existing entry in this registry. `token` can bet set to `address(0)` to permission all token contracts. `permission` should be set to 0 = None; 1 = View; or 2 = ComposeWith.
+Executing `updateEntry(...)` from an NFT owner account updates an existing entry in this registry. `token` can bet set to `address(0)` to permission all token contracts. `permission` should be set to `0` = None; `1` = View; or `2` = ComposeWith.
 
 <br />
 
@@ -74,7 +74,7 @@ Executing `updateEntry(...)` from an NFT owner account updates an existing entry
 function curateEntry(address account, address token, Curation curation) public onlyCurator;
 ```
 
-The curator of this registry (deployer of the registry, currently) is able to apply the following setting to any `[account, token]` pair (including token `address(0)`) - 0 = None; 1 = LoadByDefault; 3 = DisableView; 4 = DisableComposeWith . This setting is used by the front end user interface to determine which entries are automatically loaded, manually loadable, or disabled from display.
+The curator of this registry (deployer of the registry, currently) is able to apply the following setting to any `[account, token]` pair (including token `address(0)`) - `0` = None; `1` = LoadByDefault; `3` = DisableView; `4` = DisableComposeWith . This setting is used by the front end user interface to determine which entries are automatically loaded, manually loadable, or disabled from display.
 
 <br />
 
