@@ -220,4 +220,4 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 
 Enjoy!
 
-(c) BokkyPooBah / Bok Consulting Pty Ltd - Jun 10 2021. The MIT Licence.
+(c) BokkyPooBah / Bok Consulting Pty Ltd - Jun 11 2021. The MIT Licence.
