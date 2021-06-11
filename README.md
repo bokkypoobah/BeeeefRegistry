@@ -87,8 +87,8 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 * Site: [https://www.larvalabs.com/cryptopunks](https://www.larvalabs.com/cryptopunks)
 * Image licence: Not found
 * Contract
-** Original - [0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB](https://etherscan.io/address/0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB) @ [Jun-22-2017 07:40:00 PM +UTC](https://etherscan.io/tx/0x0885b9e5184f497595e1ae2652d63dbdb2785de2e498af837d672f5765f28430)
-** Wrapped - [0xb7f7f6c52f2e2fdb1963eab30438024864c313f6](https://etherscan.io/address/0xb7f7f6c52f2e2fdb1963eab30438024864c313f6) @ [Sep-08-2020 03:11:25 PM +UTC](https://etherscan.io/tx/0xe55761b300a9370da47488715715e249245fddb2540d7d0a0db33192142a4287)
+  * Original - [0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB](https://etherscan.io/address/0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB) @ [Jun-22-2017 07:40:00 PM +UTC](https://etherscan.io/tx/0x0885b9e5184f497595e1ae2652d63dbdb2785de2e498af837d672f5765f28430)
+  * Wrapped - [0xb7f7f6c52f2e2fdb1963eab30438024864c313f6](https://etherscan.io/address/0xb7f7f6c52f2e2fdb1963eab30438024864c313f6) @ [Sep-08-2020 03:11:25 PM +UTC](https://etherscan.io/tx/0xe55761b300a9370da47488715715e249245fddb2540d7d0a0db33192142a4287)
 * OpenSea: Wrapped - [https://opensea.io/assets/wrapped-cryptopunks](https://opensea.io/assets/wrapped-cryptopunks)
 
 <br />
@@ -98,8 +98,8 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 * Site: [https://mooncat.community/](https://mooncat.community/)
 * Image licence: Algorithmically generated - [https://github.com/ponderware/mooncatparser](https://github.com/ponderware/mooncatparser)
 * Contract:
-** Original [0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6](https://etherscan.io/address/0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6) @ [Aug-09-2017 04:36:06 AM +UTC](https://etherscan.io/tx/0x79d48c41b99f0ac8f735dbf4d048165542576862df2b05a80be9a4dbe233a623)
-** Acclimated - [0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69](https://etherscan.io/address/0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69)
+  * Original [0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6](https://etherscan.io/address/0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6) @ [Aug-09-2017 04:36:06 AM +UTC](https://etherscan.io/tx/0x79d48c41b99f0ac8f735dbf4d048165542576862df2b05a80be9a4dbe233a623)
+  * Acclimated - [0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69](https://etherscan.io/address/0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69)
 * OpenSea: [https://opensea.io/collection/acclimatedmooncats](https://opensea.io/collection/acclimatedmooncats)
 
 <br />
@@ -118,8 +118,8 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 * Site: [https://cryptocats.thetwentysix.io/](https://cryptocats.thetwentysix.io/)
 * Image licence: "Approval from CryptoCats to use 477 on NFT postcards" - gendry.eth Jun 4 2021
 * Contract:
-** Original - [0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f](https://etherscan.io/address/0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f) @ [Dec-24-2017 02:10:09 PM +UTC](https://etherscan.io/tx/0xa38a7f8bd386cca288af2fe3d15f7b0d91d52a849e81e18022ad4a901816e2a5)
-** Official Wrapped - [0xd0e7bc3f1efc5f098534bce73589835b8273b9a0](https://etherscan.io/address/0xd0e7bc3f1efc5f098534bce73589835b8273b9a0) @ [Mar-14-2021 05:38:56 PM +UTC](https://etherscan.io/tx/0xc8cd4eabd30ce7ada26fb06066a95d6bb4feb21e5885fadcf5e5560e3341ec4c); 
+  * Original - [0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f](https://etherscan.io/address/0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f) @ [Dec-24-2017 02:10:09 PM +UTC](https://etherscan.io/tx/0xa38a7f8bd386cca288af2fe3d15f7b0d91d52a849e81e18022ad4a901816e2a5)
+  * Official Wrapped - [0xd0e7bc3f1efc5f098534bce73589835b8273b9a0](https://etherscan.io/address/0xd0e7bc3f1efc5f098534bce73589835b8273b9a0) @ [Mar-14-2021 05:38:56 PM +UTC](https://etherscan.io/tx/0xc8cd4eabd30ce7ada26fb06066a95d6bb4feb21e5885fadcf5e5560e3341ec4c);
 * OpenSea: [https://opensea.io/collection/wrappedcryptocats](https://opensea.io/collection/wrappedcryptocats)
 
 <br />
