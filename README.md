@@ -99,8 +99,8 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 * Image licence: Algorithmically generated - [https://github.com/ponderware/mooncatparser](https://github.com/ponderware/mooncatparser)
 * Contract:
   * Original [0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6](https://etherscan.io/address/0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6) @ [Aug-09-2017 04:36:06 AM +UTC](https://etherscan.io/tx/0x79d48c41b99f0ac8f735dbf4d048165542576862df2b05a80be9a4dbe233a623)
-  * Official "MoonCatAcclimator" - [0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69](https://etherscan.io/address/0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69)
-  * Unofficial "MoonCatsWrapped" - [0x7C40c393DC0f283F318791d746d894DdD3693572](https://etherscan.io/address/0x7C40c393DC0f283F318791d746d894DdD3693572)
+  * Official "Official MoonCats - Acclimated" with contract name "MoonCatAcclimator" - [0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69](https://etherscan.io/address/0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69)
+  * Unofficial "Wrapped MoonCatsRescue - Unofficial" with contract name "MoonCatsWrapped" - [0x7C40c393DC0f283F318791d746d894DdD3693572](https://etherscan.io/address/0x7C40c393DC0f283F318791d746d894DdD3693572)
 * OpenSea: [https://opensea.io/collection/acclimatedmooncats](https://opensea.io/collection/acclimatedmooncats)
 
 <br />
