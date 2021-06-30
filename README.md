@@ -135,7 +135,16 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 
 <br />
 
-### BASTARD GAN PUNKS V2 - 'ComposeWith'
+### BASTARD GAN PUNKS V1 & V2 - 'ComposeWith'
+
+v1:
+
+* Site: [https://www.bastardganpunks.club/](https://www.bastardganpunks.club/)
+* Image licence: [https://www.bastardganpunks.club/#nftownership](https://www.bastardganpunks.club/#nftownership)
+* Contract: [0x9126B817CCca682BeaA9f4EaE734948EE1166Af1](https://etherscan.io/address/0x9126b817ccca682beaa9f4eae734948ee1166af1) @ [Apr-03-2020 07:08:26 PM +UTC](https://etherscan.io/tx/0xe3b20d047f574f428388b76f7919bc20299d4adbdbbcd4cfb7f115dcfb506874)
+* OpenSea: [https://opensea.io/collection/bastard-gan-punks](https://opensea.io/collection/bastard-gan-punks)
+
+v2:
 
 * Site: [https://www.bastardganpunks.club/](https://www.bastardganpunks.club/)
 * Image licence: [https://www.bastardganpunks.club/#nftownership](https://www.bastardganpunks.club/#nftownership)
@@ -217,8 +226,17 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 
 <br />
 
+### BoringBananas - 'ComposeWith'
+
+* Site: [https://www.boringbananas.co/](https://www.boringbananas.co/)
+* Image licence: "IP is yours" - mjdata in Discord 14:25 Jun 30 2021 AEST
+* Contract: [0xB9aB19454ccb145F9643214616c5571B8a4EF4f2](https://etherscan.io/address/0xB9aB19454ccb145F9643214616c5571B8a4EF4f2) @ [Jun-29-2021 03:42:36 PM +UTC](https://etherscan.io/tx/0x48136e474bf074582b7cd17da3c022e28512e2a80f189b6c153a5f7f79a3bea0)
+* OpenSea: [https://opensea.io/collection/boring-bananas-company](https://opensea.io/collection/boring-bananas-company)
+
+<br />
+
 <br />
 
 Enjoy!
 
-(c) BokkyPooBah / Bok Consulting Pty Ltd - Jun 11 2021. The MIT Licence.
+(c) BokkyPooBah / Bok Consulting Pty Ltd - Jun 30 2021. The MIT Licence.
