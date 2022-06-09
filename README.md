@@ -88,10 +88,13 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 * Image licence: Not found
 * Contract
   * v1 (with bug) - [0x6Ba6f2207e343923BA692e5Cae646Fb0F566DB8D](https://etherscan.io/address/0x6Ba6f2207e343923BA692e5Cae646Fb0F566DB8D) @ [Jun-09-2017 12:22:50 AM +UTC](https://etherscan.io/tx/0x9fef127966d59d440c70f28c8e6f1eac3af0d91f94384e207deb3c98ff9c3088)
+    * v1 Wrapped - [0x282BDD42f4eb70e7A9D9F40c8fEA0825B7f68C5D](https://etherscan.io/address/0x282BDD42f4eb70e7A9D9F40c8fEA0825B7f68C5D) @ [Jan-17-2022 10:15:07 AM +UTC](https://etherscan.io/tx/0xf7132661519e08b5804c22f0d0846146c645229dd803f85d81a417bce44992da)
+    * OpenSea: Wrapped v1 - [https://opensea.io/collection/official-v1-punks](https://opensea.io/collection/official-v1-punks)
+
   * v2 (official) - [0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB](https://etherscan.io/address/0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB) @ [Jun-22-2017 07:40:00 PM +UTC](https://etherscan.io/tx/0x0885b9e5184f497595e1ae2652d63dbdb2785de2e498af837d672f5765f28430)
+    * v2 Wrapped - [0xb7f7f6c52f2e2fdb1963eab30438024864c313f6](https://etherscan.io/address/0xb7f7f6c52f2e2fdb1963eab30438024864c313f6) @ [Sep-08-2020 03:11:25 PM +UTC](https://etherscan.io/tx/0xe55761b300a9370da47488715715e249245fddb2540d7d0a0db33192142a4287)
+    * OpenSea: Wrapped v2 - [https://opensea.io/assets/wrapped-cryptopunks](https://opensea.io/assets/wrapped-cryptopunks)    
   * CryptopunksData - [0x16F5A35647D6F03D5D3da7b35409D65ba03aF3B2](https://etherscan.io/address/0x16F5A35647D6F03D5D3da7b35409D65ba03aF3B2) @ [Aug-18-2021 12:10:24 AM +UTC](https://etherscan.io/tx/0xc82aa34310c310463eb9fe7835471f7317ac4b5008034a78c93b2a8a237be228)
-  * Wrapped - [0xb7f7f6c52f2e2fdb1963eab30438024864c313f6](https://etherscan.io/address/0xb7f7f6c52f2e2fdb1963eab30438024864c313f6) @ [Sep-08-2020 03:11:25 PM +UTC](https://etherscan.io/tx/0xe55761b300a9370da47488715715e249245fddb2540d7d0a0db33192142a4287)
-* OpenSea: Wrapped - [https://opensea.io/assets/wrapped-cryptopunks](https://opensea.io/assets/wrapped-cryptopunks)
 
 <br />
 
