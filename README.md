@@ -124,7 +124,9 @@ The curator of this registry (deployer of the registry, currently) is able to ap
 * Site: [https://cryptocats.thetwentysix.io/](https://cryptocats.thetwentysix.io/)
 * Image licence: "Approval from CryptoCats to use 477 on NFT postcards" - gendry.eth Jun 4 2021
 * Contract:
-  * Original - [0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f](https://etherscan.io/address/0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f) @ [Dec-24-2017 02:10:09 PM +UTC](https://etherscan.io/tx/0xa38a7f8bd386cca288af2fe3d15f7b0d91d52a849e81e18022ad4a901816e2a5)
+  * Unofficial v1.0, not source validated - [0x9508008227b6b3391959334604677d60169EF540](https://etherscan.io/address/0x9508008227b6b3391959334604677d60169EF540) @ [Dec-19-2017 03:48:07 PM +UTC](https://etherscan.io/tx/0x6ceb67bbadcad1f7a873fb1408b4bc85ab3c6ff8337f5e0fff426c36f58ce630)
+  * Unofficial v2.0, not source validated - [0x19c320b43744254ebdBcb1F1BD0e2a3dc08E01dc](https://etherscan.io/address/0x19c320b43744254ebdBcb1F1BD0e2a3dc08E01dc) @ [Dec-24-2017 02:10:06 PM +UTC](https://etherscan.io/tx/0x4368a8cab3163f46d576363e4d6edcacbbda535cac4f3b30816954456b402319)
+  * Original v3.0 - [0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f](https://etherscan.io/address/0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f) @ [Dec-24-2017 02:10:09 PM +UTC](https://etherscan.io/tx/0xa38a7f8bd386cca288af2fe3d15f7b0d91d52a849e81e18022ad4a901816e2a5)
   * Official Wrapped - [0xd0e7bc3f1efc5f098534bce73589835b8273b9a0](https://etherscan.io/address/0xd0e7bc3f1efc5f098534bce73589835b8273b9a0) @ [Mar-14-2021 05:38:56 PM +UTC](https://etherscan.io/tx/0xc8cd4eabd30ce7ada26fb06066a95d6bb4feb21e5885fadcf5e5560e3341ec4c);
 * OpenSea: [https://opensea.io/collection/wrappedcryptocats](https://opensea.io/collection/wrappedcryptocats)
 
